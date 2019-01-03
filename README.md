@@ -3,7 +3,14 @@
 # Calculation routines to model plasmid permeation in membrane processes
 > Set of Matlab/GNU Octave calculation routines developed during my PhD
 
-This repository contains some of the calculation routines I developed during my PhD.
+This repository contains some of the calculation routines I developed during my PhD. Specifically, this set contains three major functions:
+
+- [np_pdna_3c.m](np_pdna_3c.m)
+- [np_rna_3c.m](np_rna_3c.m)
+- [np_4c.m](np_4c.m)
+
+These are responsible for integration for the integration of the Nernst-Planck equations (defined in [nernst3c.m](./nernst3c.m) and [nernst4c.m](./nernst4c.m)) for an ionic system with 3 components (pDNA and 2 salt ions), ionic system with 3 components (RNA and 2 salt ions) and ionic system with 4 components (pDNA(sc), RNA and 2 salt ions)  
+
 
 ## Links
 
